@@ -3,17 +3,20 @@ function processText() {
   const output = document.getElementById("outputText");
 
   if (!input.trim()) {
-    output.innerText = "⚠️ Enter some text first.";
+    output.innerText = "⚠️ Please enter text first.";
     return;
   }
 
-  // fake AI (for now)
-  let result = input
+  // simple clean logic (placeholder for AI later)
+  const result = input
     .split(".")
-    .map(s => s.trim())
-    .filter(s => s.length > 0)
-    .map(s => "• " + s)
+    .filter(s => s.trim())
+    .map(s => "• " + s.trim())
     .join("\n");
 
-  output.innerText = result || "No output generated.";
+  output.innerText = result;
+
+  // little animation feel
+  output.style.opacity = 0;
+  setTimeout(() => output.style.opacity = 1, 100);
 }

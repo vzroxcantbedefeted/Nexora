@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Nexora AI</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Nexora</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1>Nexora AI</h1>
-<textarea id="inputText" placeholder="Paste text..."></textarea>
-<button onclick="processText()">Simplify</button>
-<pre id="outputText">Output here...</pre>
-<script src="script.js"></script>
+
+  <div class="bg"></div>
+
+  <div class="container">
+
+    <h1 class="title">Nexora</h1>
+    <p class="subtitle">Built to be perfect ✨</p>
+
+    <div class="card">
+      <textarea id="inputText" placeholder="Drop your messy text here..."></textarea>
+
+      <button onclick="processText()">Generate</button>
+
+      <div class="output">
+        <h3>Output</h3>
+        <pre id="outputText">Waiting for input...</pre>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
