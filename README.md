@@ -1,26 +1,10 @@
-\# Clario AI
+# Nexora AI
+Simple AI text cleaner tool.
 
+## Features
+- Clean text
+- Simple UI
 
-
-A modern AI-powered tool to turn messy notes into clean, structured content.
-
-
-
-\## Features
-
-\- Clean UI
-
-\- Text simplification
-
-\- Fast processing
-
-
-
-\## Future
-
-\- Real AI integration
-
-\- File uploads
-
-\- Export notes
-
+## Future
+- Real AI integration
+- File upload
